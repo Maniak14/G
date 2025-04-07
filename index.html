@@ -2,6 +2,7 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8" />
+  <link rel="icon" type="image/png" href="uDNJMy8.png">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Greenify - Monnaie Locale Éco-Responsable</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
@@ -9,7 +10,10 @@
 <body class="bg-gray-900 text-white font-sans">
   <!-- Navbar -->
   <header class="fixed top-0 left-0 w-full z-50 flex flex-wrap justify-between items-center p-6 bg-gray-800 shadow-lg">
-    <div class="text-2xl font-bold text-green-400">Greenify</div>
+    <div class="flex items-center space-x-2">
+        <img src="uDNJMy8.png" alt="Logo Greenify" class="w-10 h-10 rounded-full shadow-md">
+        <span class="text-2xl font-bold text-green-400">Greenify</span>
+    </div>      
     <nav class="hidden md:flex space-x-6">
       <a href="#" class="hover:text-green-400">Page d'accueil</a>
       <a href="#pourquoi" class="hover:text-green-400">Pourquoi Greenify ?</a>
@@ -20,7 +24,7 @@
 
   <!-- Add padding to offset fixed header -->
   <div class="pt-40 md:pt-28">
-    <!-- Hero Section -->
+
     <!-- Hero Section -->
     <section class="flex flex-col-reverse md:flex-row items-center justify-between px-6 md:px-16 py-20 bg-gray-900">
         <div class="md:w-1/2 md:pr-12 mt-10 md:mt-0 text-center md:text-left">
@@ -36,28 +40,28 @@
             <a href="#" class="border-2 border-green-400 text-green-200 hover:bg-green-700 px-6 py-3 rounded-full text-lg font-medium text-center">En savoir plus</a>
         </div>
     
-        <div class="flex justify-center md:justify-start space-x-4 mt-4">
-            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition">
-                <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-5 h-5">
+        <div class="flex justify-center md:justify-start space-x-5 mt-8 md:mt-10 pl-1">
+            <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition duration-300 shadow-md">
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-6 h-6">
             </a>
-            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition">
-                <img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" alt="Twitter" class="w-5 h-5">
+            <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition duration-300 shadow-md">
+              <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png" alt="X" class="w-6 h-6">
             </a>
-            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition">
-                <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-5 h-5">
+            <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition duration-300 shadow-md">
+              <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-6 h-6">
             </a>
-            <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition">
-                <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="LinkedIn" class="w-5 h-5">
+            <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition duration-300 shadow-md">
+              <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="LinkedIn" class="w-6 h-6">
+            </a>
+            <a href="#" class="w-12 h-12 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-500 transition duration-300 shadow-md">
+              <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="w-6 h-6">
             </a>
         </div>
-
         </div>
-    
         <div class="md:w-1/2 mb-10 md:mb-0">
         <img src="2c809981-282f-4fb2-bcad-e656c15ba377.jpg" alt="Éco quartier" class="w-full max-w-lg mx-auto rounded-xl shadow-2xl">
         </div>
     </section>
-  
 
     <!-- Section Join Greenify -->
     <section class="bg-green-600 text-white text-center py-16 px-4">
@@ -121,6 +125,7 @@
         </div>
       </div>
     </section>
+
     <!-- Section Impact en chiffres -->
     <section class="bg-green-800 text-white px-6 py-20">
         <div class="max-w-6xl mx-auto">
@@ -157,6 +162,7 @@
         </div>
     </section>
     </div>
+
   <!-- Footer -->
     <footer class="bg-green-900 text-white py-10 px-6">
         <div class="max-w-6xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
@@ -187,11 +193,23 @@
             <li><a href="#" class="hover:underline">Rejoignez-nous</a></li>
             </ul>
             <div class="flex space-x-4 mt-4">
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733579.png" class="w-5" alt="Twitter"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" class="w-5" alt="Facebook"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" class="w-5" alt="Instagram"></a>
-            <a href="#"><img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" class="w-5" alt="LinkedIn"></a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition duration-300">
+                  <img src="https://cdn-icons-png.flaticon.com/512/733/733547.png" alt="Facebook" class="w-5 h-5">
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition duration-300">
+                  <img src="https://cdn-icons-png.flaticon.com/512/5968/5968958.png" alt="X" class="w-5 h-5">
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition duration-300">
+                  <img src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png" alt="Instagram" class="w-5 h-5">
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition duration-300">
+                  <img src="https://cdn-icons-png.flaticon.com/512/733/733585.png" alt="LinkedIn" class="w-5 h-5">
+                </a>
+                <a href="#" class="w-10 h-10 flex items-center justify-center rounded-full bg-white/10 hover:bg-green-600 transition duration-300">
+                  <img src="https://cdn-icons-png.flaticon.com/512/1384/1384060.png" alt="YouTube" class="w-5 h-5">
+                </a>
             </div>
+              
         </div>
         </div>
     </footer>
